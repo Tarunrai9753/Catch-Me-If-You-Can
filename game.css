@@ -1,0 +1,152 @@
+.btnhw {
+    height: 8rem;
+    width: 5rem;
+}
+
+
+@media (min-width:600px) {
+    .btnhw {
+        height: 10rem;
+        width: 6rem;
+    }
+
+}
+
+
+@media (min-width:800px) {
+    .btnhw {
+        height: 12rem;
+        width: 8rem;
+    }
+
+}
+
+
+@media (min-width:1000px) {
+    .btnhw {
+        height: 14rem;
+        width: 9rem;
+    }
+
+}
+
+
+@media (min-width:1200px) {
+    .btnhw {
+        height: 16rem;
+        width: 12rem;
+    }
+
+}
+
+.btnbdr1 {
+    border: 2px solid blue;
+}
+
+.btnbdr1:hover {
+    background-color: #00aeff62 !important;
+}
+
+.btnbdr2 {
+    border: 2px solid #d10cd1;
+}
+
+.btnbdr2:hover {
+    background-color: #e62ce673 !important;
+}
+
+.btnbdr3 {
+    border: 2px solid greenyellow;
+}
+
+.btnbdr3:hover {
+    background-color: greenyellow;
+    background-color: rgba(51, 255, 0, 0.459) !important;
+}
+
+.btnbdr4 {
+    border: 2px solid red;
+}
+
+.btnbdr4:hover {
+    background-color: #ff000079 !important;
+}
+
+.btnbdr5 {
+    border: 2px solid yellow;
+}
+
+.btnbdr5:hover {
+    background-color: #ffe6009f !important;
+}
+
+.bdrrds {
+    border-radius: 1rem;
+}
+
+.txt1:hover {
+    color: #ffd900 !important;
+}
+
+.glow-btn {
+
+    border: 2px solid transparent;
+    background-color: transparent;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    animation: glow-bord 4s linear infinite;
+}
+
+@keyframes glow-bord {
+    0% {
+        box-shadow: 0 0 10px rgba(22, 22, 26, 0.7),
+            0 0 20px rgba(39, 39, 108, 0.7),
+            0 0 30px rgba(56, 145, 96, 0.7);
+    }
+
+    25% {
+        box-shadow: 0 0 10px rgba(54, 54, 134, 0.7),
+            0 0 20px rgba(50, 192, 21, 0.7),
+            0 0 30px rgba(182, 27, 6, 0.7),
+
+    }
+
+    50% {
+        box-shadow: 0 0 30px rgba(182, 27, 6, 0.7),
+            0 0 20px rgba(50, 192, 21, 0.7),
+            0 0 10px rgba(54, 54, 134, 0.7),
+
+    }
+
+    75% {
+        box-shadow: 0 0 10px rgba(58, 103, 46, 0.7),
+            0 0 20px rgba(139, 143, 22, 0.7),
+            0 0 30px rgba(198, 185, 42, 0.7),
+            0 0 40px rgba(138, 92, 18, 0.7),
+    }
+
+    100% {
+        box-shadow: 0 0 10px rgba(32, 72, 22, 0.758),
+            0 0 20px rgba(135, 131, 34, 0.7),
+            0 0 30px rgba(73, 94, 24, 0.7);
+    }
+}
+
+
+
+
+.btn1:hover,
+.btn1:focus {
+    outline-offset: 5px;
+}
+
+.pressed {
+    background-color: #66ff00;
+}
+.bdyclr{
+    background: #851313;
+background: linear-gradient(90deg, #305c51 0%, #142b1c 46%, #220202 97%);
+}

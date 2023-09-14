@@ -1,0 +1,76 @@
+  
+.mt1 {
+    margin-top: 12%;
+}
+
+.txt1:hover {
+    color:#ffbb00 !important;
+}
+
+.txt2:hover {
+    color: #ffbb00 !important;
+}
+
+.bdr {
+    border: 1px solid #ffbb00;
+
+
+}
+
+.bdr:hover {
+    border: 1px solid #ffffff;
+}
+
+
+
+.aaa {
+    text-decoration: none;
+    cursor: none;
+}
+
+.glow-btn {
+
+    border: 2px solid transparent;
+    background-color: transparent;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    animation: glow-bord 4s linear infinite;
+}
+
+@keyframes glow-bord {
+    0% {
+        box-shadow: 0 0 10px rgba(22, 22, 26, 0.7),
+            0 0 20px rgba(39, 39, 108, 0.7),
+            0 0 30px rgba(56, 145, 96, 0.7);
+    }
+
+    25% {
+        box-shadow: 0 0 10px rgba(54, 54, 134, 0.7),
+            0 0 20px rgba(50, 192, 21, 0.7),
+            0 0 30px rgba(182, 27, 6, 0.7),
+
+    }
+
+    50% {
+        box-shadow:  0 0 30px rgba(182, 27, 6, 0.7),
+            0 0 20px rgba(50, 192, 21, 0.7),
+            0 0 10px rgba(54, 54, 134, 0.7),
+
+    }
+
+    75% {
+        box-shadow: 0 0 10px rgba(58, 103, 46, 0.7),
+            0 0 20px rgba(139, 143, 22, 0.7),
+            0 0 30px rgba(198, 185, 42, 0.7),
+            0 0 40px rgba(138, 92, 18, 0.7),
+    }
+
+    100% {
+        box-shadow: 0 0 10px rgba(32, 72, 22, 0.758),
+            0 0 20px rgba(135, 131, 34, 0.7),
+            0 0 30px rgba(73, 94, 24, 0.7);
+    }
+}
